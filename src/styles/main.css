@@ -49,25 +49,22 @@ body {
 /*-------------------------------------------------------*/
 .general-container {
   background: radial-gradient(circle, #f2f2f2, #f8f4d1);
+  width:100vw;
   height:100vh;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
+  margin: 0px;gap:0px;padding:0px;
+  display: flex; flex-direction: column;
+  align-items: center; align-content: center;
   justify-content: space-evenly;
 }
 .home-container {
-  display: flex;
-  align-items: center;
-  align-content: center;
+  margin-top: 50px;margin-bottom  : 50px;
+  gap:0px;padding:0px;
+  display: flex; flex-direction: row;
+  align-items: center; align-content: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  height: 500px;
   width: 100%;
-  flex-direction: row;
 }
 .pierre-button-home {
   width: 200px;
