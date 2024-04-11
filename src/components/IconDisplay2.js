@@ -8,7 +8,7 @@ function IconDisplay2({ iconFileName, altName }) {
       <img
         className="pierre-icon"
         src={require(`../1-CV/assets/icons/resize100/${iconFileName}.png`)}
-        alt={altName}
+        alt={iconFileName}
       />
       {separator}
     </div>
