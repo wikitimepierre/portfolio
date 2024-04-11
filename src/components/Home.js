@@ -5,13 +5,12 @@ import IconDisplay2 from './IconDisplay2.js';
 
 //TODO: le titre de la tabulation = géré par shop => à gérer sur chaque partie
 function Home() {
-  const separator = <span>&nbsp;&nbsp;</span>;
   return (
     <div className='general-container'>
-      <div>{separator}</div>
-      <div>{separator}</div>
-      <div className='pierre-hometitle'>Portfolio de Pierre Dumas</div>
-      <div className='pierre-homesubtitle'>https://github.com/wikitimepierre/persoOC</div>
+      <div className='pierre-hometitle'>
+        Portfolio de Pierre Dumas
+        <div className='pierre-homesubtitle'>https://github.com/wikitimepierre/persoOC</div>
+      </div>
       <div className='home-container'>
 
         <Link to="/1-CV/">

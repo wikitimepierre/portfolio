@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { Helmet } from 'react-helmet';
 
 import CVSkills from './CVSkills';
 
@@ -12,6 +13,11 @@ function CV() {
   // TODO: aligné à gauche les textes
   return (
     < div className="w3-content w3-margin-top" style={{ maxWidth: "1400px" }}>
+      <Helmet>
+        <link rel="preload" as="image" href={Officiel} />
+        <link rel="preload" as="image" href={Officieux} />
+      </Helmet>
+
       {/* TODO effacer CV.html et css */}
       {/* -- The Grid -- */}
       < div className="w3-row-padding" >
