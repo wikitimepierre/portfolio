@@ -1,0 +1,228 @@
+.pierre-layout-inner {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pierre-layout-inner2 {
+  width: 100%;
+  height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.pierre-plant-item-cover {
+  height: 155px;
+	width: 155px;
+	border-radius: 20px;
+	object-fit: cover;
+	border-radius: 20px 20px 20px 0;
+  flex-wrap: wrap;
+}
+.pierre-shoprow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:100%;
+}
+.pierre-shopleft{text-align: left}
+.pierre-shopright{text-align: right}
+.pierre-backgroundshop {
+  flex-wrap: wrap;
+  box-shadow: inset -8px -300px 200px -95px #258153;
+  z-index: 1;
+}
+.pierre-plant-list {
+	list-style-type: none;
+	padding: 16px;
+	display: flex;
+  flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+  transition: transform 0.3s ease;
+}
+.pierre-plant-item {
+	margin: 5px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+	border-radius: 20px 20px 20px 0;
+  border: none;
+  background-color: #f2faf6;
+}
+.pierre-plant-item:hover {
+  transform: scale(0.95);
+  background-color: #91ccaf;
+}
+.pierre-plant-item:active {
+  transform: scale(1.05);
+  background-color: #0fe769;
+}
+.pierre-radial2{
+  width: 200px;
+  height: auto;
+  background-color: #31b572;
+  box-shadow: inset -38px 1px 180px -46px rgba(0,0,0,0.45);
+}
+.pierre-totalpanel{
+  position: relative;
+  width: 260px;
+  top: 10px;
+  left: 0px;
+  z-index: 1000;
+}
+.pierre-shopprice{
+  font-size: xx-large;
+  position: relative;
+  top: -145px;
+  left: 30px;
+  z-index: 1000;
+}
+.pierre-panel2{
+  width: 400px;
+}
+.pierre-shopamounts{
+  color: rgb(209, 221, 184);
+  font-size: initial;
+  text-align: right;
+  padding-right: 20px;
+}
+
+
+
+
+
+.jh-banner {
+	color: black;
+	text-align: right;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+}
+
+.jh-title {
+	padding-left: 32px;
+}
+
+.jh-logo {
+	height: 230px;
+	width: 200px;
+}
+.jh-cart {
+	color: white;
+	background-color: #31b572;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 300px;
+}
+
+.jh-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.jh-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+	align-self: flex-end;
+}
+
+.jh-cart-closed {
+	padding: 32px;
+	width: 300px;
+}
+
+.jh-cart-closed > button {
+	color: black;
+}
+.jh-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.jh-categories-select {
+	margin-right: 15px;
+}
+.jh-footer {
+	color: black;
+	padding: 32px;
+	border-top: solid 3px black;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+}
+
+.jh-footer-elem {
+	margin-bottom: 10px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.jh-layout-inner {
+	display: flex;
+	flex-direction: row;
+}
+.jh-plant-item-cover {
+	height: 250px;
+	width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.jh-plant-item {
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.jh-plant-item-price {
+	position: absolute;
+	border-radius: 20px 20px 20px 0;
+	background-color: #31b472;
+	color: white;
+	padding: 15px;
+	right: 0;
+	top: 0;
+	font-weight: 500;
+}
+.jh-shopping-list {
+	width: 100%;
+}
+
+.jh-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
