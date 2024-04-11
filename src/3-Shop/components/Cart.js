@@ -9,7 +9,7 @@ function Cart({ cart, updateCart }) {
   useEffect(() => { document.title = `${total}€` }, [total])
 
   return (
-    <div className='pierre-radial2'>
+    <div className='pierre-backgroundcart'>
       {cart.length > 0 ? (
         <div>
           <img src={logototal} className='pierre-totalpanel' alt="logo" />

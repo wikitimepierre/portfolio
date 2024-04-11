@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { plantList } from '../datas/plantList'
 import Categories from './Categories'
 import CareScale from './CareScale'
-import logo from '../assets/panel2.png'
 
 function ShoppingList({ cart, updateCart }) {
   const [activeCategory, setActiveCategory] = useState('')
@@ -26,13 +25,8 @@ function ShoppingList({ cart, updateCart }) {
   }
 
   return (
-    <div className='pierre-backgroundshop'>
-      <Categories
-        categories={categories}
-        setActiveCategory={setActiveCategory}
-        activeCategory={activeCategory}
-      />
-
+    <div>
+      <Categories categories={categories} setActiveCategory={setActiveCategory} activeCategory={activeCategory} />
       <div className='pierre-plant-list'>
         {plantList.map(({ id, cover, name, water, light, price, category }) =>
           !activeCategory || activeCategory === category ? (
@@ -52,7 +46,6 @@ function ShoppingList({ cart, updateCart }) {
           ) : null
         )}
       </div>
-      <img src={logo} className='pierre-panel2' alt="logo" />
     </div>
   )
 }
